@@ -1,0 +1,167 @@
+baseURL: https://privorum.com
+languageCode: en-us
+title: Privorum
+theme: hugo-fresh
+googleAnalytics: #Put in your tracking code without quotes like this: UA-XXXXXX...
+#Disables warningss
+disableKinds:
+ -taxonomy
+ -taxonomyTerm
+
+
+params:
+ # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/logo-new-white.jpg
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Take Control Of Your Data.
+    # Hero subtitle (optional)
+    subtitle: The Open, Neutral, Borderless, Censorship-resistant and Decentralized fork of Quorum. Privorum is a platform for trust that is not controlled by anyone and respects your privacy.
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Features
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
+    button: true
+  section1:
+    title: Evolve with Privorum.
+    subtitle: The proven blockchain solution for business that is not controlled by one party that can decide which transactions get recorded and which ones do not.
+    tiles:
+    - title: Open & Neutral
+      icon: mouse-globe
+      text: Privorum consensus MPoS allows everyone to participate. It's open-source, open-access, open to innovation. No one is in control.
+      url: /
+      buttonText: Free trial
+    - title: Borderless & Censorship-resistant
+      icon: laptop-cloud
+      text: The open access will enable an open & inter-operable network protocol without central control for enterprises.
+      url: /
+      buttonText: Get started
+    - title: Decentralized & Private
+      icon: plug-cloud
+      text: From any point to any other point, without reference to any third party. Self-authorising, independent routable private network protocol.
+      url: /
+      buttonText: Get started
+  section2:
+    title: A Permissionless solution for enterprise blockchains
+    subtitle: Its Blockchain, not Bullshit
+    features:
+    - title: Identity theft & fraud
+      text: These have reached epidemic levels and form one of the fastest-growing types of (cyber-) crime.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Large scale data breaches
+      text: Lets change the way personal data is being currently stored and shared by allowing individuals to retain full control over it, moving the storage from corporations to individuals and as such safeguarding personal data from data breaches, identity theft, unnecessary duplication and abuse.
+      icon: doc-sync
+    - title: A fully secure and private digital blockchain
+      text: Privorum is the ultimate enterprise ready solution that allow's individuals to be and remain the sole owner and distributor of its personal data through a fully secure and private blockchain solution.
+      icon: mobile-feed
+  section3:
+    title: Enterprise interoperable blockchain With Governance
+    subtitle: A truly decentralised alternative to Corda, Hyperledger and Quorum.
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Privoruim offers enterprise platforms for companies that want to gain a head start when it comes to innovation
+    clients:
+    - name: Irma Walters
+      quote: Using Privorum, we built a solution that from the start takes into account privacy and user-control. Our customers will decide where they like store their personal data, the data is processed and stored in a way that ensures security and privacy. Only our customers will have access to the vault where the data is stored. They are the only one who can access and delete the contents in their vaults.
+      job: CEO
+      img: 1
+    - name: John Bradley
+      quote: We have built a network which allows users to bid for and offer virtual goods for sale in an interactive tender marketplace. By developing this app with Privorum, We were able to demonstrate how to run a enterprise ready application and highlighted one of the best features that our customers want, privacy.
+      job: CTO
+      img: 2
+    - name: Gary Blackman
+      quote: By using Privorum, we have build a product to our users that allows for four levels of identification and membership. The higher the identification level, the more profound the initial identity check of the person involved, enabling customers to access to physical locations facilitated by installing a small webcam, for example at the entrance of an office building or health club, or inside a car or private property.
+      job: Head of Product
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/privorum
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
