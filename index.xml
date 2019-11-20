@@ -11,12 +11,13 @@
     
     
     <item>
-      <title>Privorum is (Open, Neutral, Borderless, Censorship-resistant and Decentralized) fork of Quorum, with familiar tools tailored for enterprise.</title>
+      <title>Welcome to Privorum - a privacy first blockchain.</title>
       <link>https://privorum.com/developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://privorum.com/developers/</guid>
-      <description></description>
+      <description>Privorum is a fork of Quorum, upgraded to be Open, Neutral, Borderless, Censorship-resistant, Autonomous, Decentralized alternative for enterprises.  It’s biggest asset is the private smart contracts which are designed to reverse engineer data management as we know it.  It allows individuals to keep full control over their personal data in their interactions with both public and private organisations.  
+As such this solution does not only solve the issue of data breaches and hacks, identity theft and the incredibly high cost of cybersecurity and data protection activities, but it will also allow organisations to profile themselves as a trustworthy party to their increasingly suspicious and critical clients, users and citizens.</description>
     </item>
     
   </channel>
