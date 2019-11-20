@@ -31,7 +31,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: logos/cat.png
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -94,12 +94,12 @@ params:
   section3:
     title: Enterprise interoperable blockchain With Governance
     subtitle: A truly decentralised alternative to Corda, Hyperledger and Quorum.
-    image: illustrations/mockups/app-mockup.png
+    image: illustrations/privorum-overview.png
     buttonText: Get started
     buttonLink: "#"
   section4:
     title: Our Clients love us!
-    subtitle: Privoruim offers enterprise platforms for companies that want to gain a head start when it comes to innovation
+    subtitle: Privorum offers enterprise platforms for companies that want to gain a head start when it comes to innovation
     clients:
     - name: Irma Walters
       quote: Using Privorum, we built a solution that from the start takes into account privacy and user-control. Our customers will decide where they like store their personal data, the data is processed and stored in a way that ensures security and privacy. Only our customers will have access to the vault where the data is stored. They are the only one who can access and delete the contents in their vaults.
@@ -116,7 +116,7 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: solidity.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
