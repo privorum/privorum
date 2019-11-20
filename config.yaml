@@ -211,24 +211,28 @@ params:
         text: Priorum is 100% open source and its based on Quorum, so you can develop with confidence.
         url: /
         buttonText: Get started
-
   devsection2:
-    title: Developer Tools
-    subtitle: All you need to know about Privorum engineering team's progress.
+    title: Let’s change this obsolete system!
+    subtitle: Why not change this system on its head, making you the sole gatekeeper of who you want to share your data with and under which terms
     features:
       - title: Identity theft & fraud
-        text: These have reached epidemic levels and form one of the fastest-growing types of (cyber-) crime.
+        text: It avoids fraud, identity theft, data overload from the perspective of the individual but also it mitigates risk of breach or potential GDPR fines and as such cost, time, resources and most importantly trust issues of organisations.
         # Icon (from /images/illustrations/icons/___.svg)
         icon: laptop-globe
-      - title: Large scale data breaches
-        text: Lets change the way personal data is being currently stored and shared by allowing individuals to retain full control over it, moving the storage from corporations to individuals and as such safeguarding personal data from data breaches, identity theft, unnecessary duplication and abuse.
+      - title: Why we built Privorum ?
+        text: To change the way personal data is being currently stored and shared by allowing individuals to retain full control over it, moving the storage from corporations to individuals and as such safeguarding personal data from data breaches, identity theft, unnecessary duplication and abuse.
         icon: doc-sync
-      - title: A fully secure and private digital blockchain
-        text: Privorum is the ultimate enterprise ready solution that allow's individuals to be and remain the sole owner and distributor of its personal data through a fully secure and private blockchain solution.
+      - title: A fully secure and private digital identity wallet to manage your Personal data
+        text: |
+          You can update, add and even change your personal data at any given time.
+          You can give organisations temporary access to the relevant data under specific terms (for instance you can give access to your data for verification and then this data is being deleted again by you removing the access)
         icon: mobile-feed
   devsection3:
-    title: Enterprise interoperable blockchain With Governance
-    subtitle: A truly decentralised alternative to Corda, Hyperledger and Quorum.
-    image: illustrations/privorum-overview.png
-    buttonText: Get started
+    title: Why are we introducing Privorum?
+    subtitle: |
+      Data leaks, data leaks everywhere.
+      We are worried about the growing number of data breaches, identity theft and abuse of personal data. Any centralised database can be hacked, and your data can be exposed.
+
+    image: illustrations/data-breaches.jpg
+    buttonText: Act now
     buttonLink: "#"

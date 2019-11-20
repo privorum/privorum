@@ -9,6 +9,9 @@
         <div class="divider"></div>
       </div>
     </div>
+
+
+
     {{ .Content }}
 
   </div>
@@ -19,13 +22,15 @@
   {{ partial "single/devsection1.html" . }}
 {{ end }}
 
-{{/*{{ if .Site.Params.devsection2 }}*/}}
-{{/*  {{ partial "single/devsection2.html" . }}*/}}
-{{/*{{ end }}*/}}
+{{ if .Site.Params.devsection3 }}
+  {{ partial "single/devsection3.html" . }}
+{{ end }}
 
-{{/*{{ if .Site.Params.devsection3 }}*/}}
-{{/*  {{ partial "single/devsection3.html" . }}*/}}
-{{/*{{ end }}*/}}
+
+{{ if .Site.Params.devsection2 }}
+  {{ partial "single/devsection2.html" . }}
+{{ end }}
+
 
 
 
