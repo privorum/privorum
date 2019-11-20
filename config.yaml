@@ -8,6 +8,9 @@ disableKinds:
  -taxonomy
  -taxonomyTerm
 
+taxonomies:
+  category: "categories"
+  languages: "languages"
 
 params:
  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
@@ -41,21 +44,29 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
+  - title: Developers
+    url: /developers
+  - title: Docs
+    url: https://docs.privorum.com
+  - title: Resources
     sublinks:
-    - title: Dropdown item
+    - title: Block Explorer
       url: /
-    - title: Dropdown item
+    - title: Remix IDE
       url: /
-    - title: Dropdown item
+    - title: Faucet
       url: /
-  - title: Log in
+    - title: Chrome Wallet
+      url: /
+    - title: Firefox Wallet
+      url: /
+    - title: Android Wallet
+      url: /
+    - title: iOS Wallet
+      url: /
+  - title: Blog
     url: /
-  - title: Sign up
+  - title: Buy PRVM
     url: /
     button: true
   section1:
@@ -165,3 +176,59 @@ params:
           link: /blog/first
         - text: Tech articles
           link: /blog/second
+  devsection1:
+    title: We’ve built Privorum with everything you need.
+    subtitle:
+    tiles:
+      - title: Strong privacy
+        icon: mouse-globe
+        text: Private information is never broadcast to network participants. Private data is encrypted and only shared directly with relevant parties.
+        url: /
+        buttonText: Free trial
+      - title: Use-case specific consensus
+        icon: laptop-cloud
+        text: "Pick a consensus algorithm to suit your requirements: MPOS, POSDAO."
+        url: /
+        buttonText: Get started
+      - title: Permissioning
+        icon: plug-cloud
+        text: Flexibly define how to onboard entities and users onto your network using Privorum’s smart-contract based permissions model.
+        url: /
+        buttonText: Get started
+    tiles2:
+      - title: Simple integration
+        icon: mouse-globe
+        text: With privorum-cloud, you can easily deploy Privorum across different cloud environments. Or, use Docker for seamless cross-environment integration.
+        url: /
+        buttonText: Free trial
+      - title: Compatibility
+        icon: laptop-cloud
+        text: "We work with the existing tools you know: Truffle, MetaMask, Remix and OpenZeppelin (to name a few) – they’re ready to use"
+        url: /
+        buttonText: Get started
+      - title: Open source
+        icon: plug-cloud
+        text: Priorum is 100% open source and its based on Quorum, so you can develop with confidence.
+        url: /
+        buttonText: Get started
+
+  devsection2:
+    title: Developer Tools
+    subtitle: All you need to know about Privorum engineering team's progress.
+    features:
+      - title: Identity theft & fraud
+        text: These have reached epidemic levels and form one of the fastest-growing types of (cyber-) crime.
+        # Icon (from /images/illustrations/icons/___.svg)
+        icon: laptop-globe
+      - title: Large scale data breaches
+        text: Lets change the way personal data is being currently stored and shared by allowing individuals to retain full control over it, moving the storage from corporations to individuals and as such safeguarding personal data from data breaches, identity theft, unnecessary duplication and abuse.
+        icon: doc-sync
+      - title: A fully secure and private digital blockchain
+        text: Privorum is the ultimate enterprise ready solution that allow's individuals to be and remain the sole owner and distributor of its personal data through a fully secure and private blockchain solution.
+        icon: mobile-feed
+  devsection3:
+    title: Enterprise interoperable blockchain With Governance
+    subtitle: A truly decentralised alternative to Corda, Hyperledger and Quorum.
+    image: illustrations/privorum-overview.png
+    buttonText: Get started
+    buttonLink: "#"

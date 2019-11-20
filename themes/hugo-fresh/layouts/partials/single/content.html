@@ -1,3 +1,5 @@
+{{ if .Content }}
+
 <section class="section is-medium">
   <div class="container">
     <div class="columns">
@@ -8,5 +10,32 @@
       </div>
     </div>
     {{ .Content }}
+
   </div>
 </section>
+{{ end }}
+
+{{ if .Site.Params.devsection1 }}
+  {{ partial "single/devsection1.html" . }}
+{{ end }}
+
+{{/*{{ if .Site.Params.devsection2 }}*/}}
+{{/*  {{ partial "single/devsection2.html" . }}*/}}
+{{/*{{ end }}*/}}
+
+{{/*{{ if .Site.Params.devsection3 }}*/}}
+{{/*  {{ partial "single/devsection3.html" . }}*/}}
+{{/*{{ end }}*/}}
+
+
+
+{{ if .Site.Params.footer }}
+  {{ partial "footer.html" . }}
+{{ end }}
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+{{ if .Site.Params.sidebar }}
+  {{ partial "sidebar.html" . }}
+{{ end }}
