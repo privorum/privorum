@@ -7,7 +7,7 @@ categories: ["Developers"]
 <div class="columns is-centered is-one-third">
 
 <div class="column is-centered-tablet-portrait">
-Privorum is a fork of Quorum, upgraded to be <b>Open, Neutral, Borderless, Censorship-resistant, Autonomous, Decentralized</b> alternative for enterprises. 
+Privorum is a fork of Ethereum, upgraded to be <b>Open, Neutral, Borderless, Censorship-resistant, Autonomous, Decentralized</b> alternative for enterprises. 
 </div>
 
 <div class="column is-centered-tablet-portrait">

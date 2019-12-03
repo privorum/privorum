@@ -28,7 +28,7 @@ params:
     # Main hero title
     title: Take Control Of Your Data.
     # Hero subtitle (optional)
-    subtitle: The Open, Neutral, Borderless, Censorship-resistant and Decentralized fork of Quorum. Privorum is a platform for trust that is not controlled by anyone and respects your privacy.
+    subtitle: The Open, Neutral, Borderless, Censorship-resistant and Decentralized Polkadot Blockchain. Privorum is a platform for trust that is not controlled by anyone and respects your privacy.
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -208,7 +208,7 @@ params:
         buttonText: Get started
       - title: Open source
         icon: plug-cloud
-        text: Priorum is 100% open source and its based on Quorum, so you can develop with confidence.
+        text: Priorum is 100% open source and its based on Polkadot, so you can develop with confidence.
         url: /
         buttonText: Get started
   devsection2:
